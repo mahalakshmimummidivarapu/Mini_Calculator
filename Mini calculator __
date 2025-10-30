@@ -28,7 +28,7 @@ elif option=='4':
  	print("error")
  if option=='5':
  	print('Result:',Num1**Num2)
-if option=='6':
+ elif option=='6':
 	print('Result:',Num1%Num2)
 else:
 	print('invalid')	
