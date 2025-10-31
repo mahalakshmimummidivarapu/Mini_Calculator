@@ -1,0 +1,38 @@
+# MINI _CALCULATOR_
+#WELCOME _USERS_
+
+Num1=float(input('Enter the first number:'))
+Num2=float(input('Enter the second number:'))
+
+#choose operations:-
+print('choose Operation:')
+print("1.Addition(+)")
+print("2.Subtraction(-)")
+print("3.Multiplication(*)")
+print("4.Division(/)")
+print("5.Exponential")
+print("6.Modulus(%)")
+
+option=input("Enter the option(1,2,3,4,5,6):-")
+
+if option=='1':
+	print('Result:' ,Num1+Num2)
+elif option=='2':
+	print('Result:',Num1-Num2)
+elif option=='3':
+	print('Result:',Num1*Num2)
+elif option=='4':
+ if Num2!=0:
+   print('Result:',Num1/Num2)
+ else:
+ 	print("error")
+ if option=='5':
+ 	print('Result:',Num1**Num2)
+if option=='6':
+	print('Result:',Num1%Num2)
+else:
+	print('invalid')	
+
+print("Thank you for using this calculator")
+print("Nice to meet you")
+	
